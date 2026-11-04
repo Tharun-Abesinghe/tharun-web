@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tharun Abesinghe | Network & Systems Engineer</title>
+  <meta name="description" content="Portfolio of Tharun Abesinghe: enterprise network design, systems administration, virtualization, cloud/IoT and infrastructure security.">
+  <meta name="theme-color" content="#0B1220">
+  <meta property="og:title" content="Tharun Abesinghe | Network & Systems Engineer">
+  <meta property="og:description" content="Enterprise networks, virtualization, cloud & IoT, and infrastructure security.">
+  <meta property="og:image" content="assets/tharun.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230B1220'/%3E%3Cpath d='M6 22V10l10 8V10l10 12' fill='none' stroke='%233878FB' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanline" aria-hidden="true"></div>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="#home" aria-label="Tharun Abesinghe, home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>tharun<b>@net</b>:~$</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+    <nav id="menu" class="menu" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Experience</a>
+      <a href="#certs">Certifications</a>
+      <a href="#contact" class="btn btn-sm">Contact Me</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="status"><span class="led" aria-hidden="true"></span> link up · open to internships, graduate roles &amp; collaborations</p>
+          <h1>Building, securing &amp; connecting <span class="grad">reliable infrastructure.</span></h1>
+          <p class="lead">I'm <strong>Tharun Abesinghe</strong>, a Network &amp; Systems Engineer. I design networks that scale, squeeze milliseconds out of constrained hardware, and ship infrastructure in containers.</p>
+          <div class="cta">
+            <a class="btn" href="#projects">View My Projects <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <a class="btn btn-ghost" href="#contact">Get in Touch</a>
+          </div>
+          <ul class="focus" aria-label="Focus areas">
+            <li>Network Infrastructure</li>
+            <li>Linux &amp; Windows Systems</li>
+            <li>Virtualization</li>
+            <li>Cloud &amp; IoT</li>
+            <li>IT Security Operations</li>
+          </ul>
+        </div>
+
+        <div class="hero-photo">
+      <svg class="hero-cables" viewBox="-840 -460 1680 920" aria-hidden="true">
+        <path class="f1" data-w="15" d="M0 0 C 120 -30 230 -150 420 -160 S 700 -260 840 -250"/>
+        <path class="f5" data-w="11" d="M0 0 C 130 20 270 -50 440 -30 S 720 -80 840 -120"/>
+        <path class="f2" data-w="14" d="M0 0 C 130 60 290 150 470 160 S 720 260 840 250"/>
+        <path class="f3" data-w="10" d="M0 0 C 100 90 230 250 400 290 S 700 400 840 400"/>
+        <path class="f4" data-w="12" d="M0 0 C 40 130 -40 270 -160 350 S -260 420 -300 470"/>
+        <path class="f6" data-w="10" d="M0 0 C 20 -140 120 -260 300 -330 S 600 -430 840 -440"/>
+        <path class="f7" data-w="9" d="M0 0 C 150 120 200 260 330 340 S 520 440 600 470"/>
+        <path class="f8" data-w="8" d="M0 0 C 60 -70 220 -110 360 -230 S 560 -330 700 -470"/>
+      </svg>
+          <div class="ring ring-a" aria-hidden="true"></div>
+          <div class="ring ring-b" aria-hidden="true"></div>
+          <svg class="orbit" viewBox="0 0 500 500" aria-hidden="true">
+            <defs>
+              <linearGradient id="fg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#3878FB"/><stop offset="1" stop-color="#22d3ee"/>
+              </linearGradient>
+            </defs>
+            <circle cx="250" cy="250" r="238" class="orbit-base"/>
+            <circle cx="250" cy="250" r="238" class="orbit-pulse"/>
+          </svg>
+          <div class="photo-frame tilt">
+            <img src="assets/tharun.jpg" alt="Portrait of Tharun Abesinghe in a dark suit" width="600" height="600" fetchpriority="high">
+            <div class="photo-glow" aria-hidden="true"></div>
+          </div>
+          <div class="chip chip-1"><span class="led" aria-hidden="true"></span> SLIIT · CSNE</div>
+          <div class="chip chip-2"><b>IPv4</b> / <b>IPv6</b> dual-stack</div>
+          <div class="chip chip-3"><b>MPLS</b> L3VPN</div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll to About"><span></span></a>
+    </section>
+
+    <!-- fiber divider -->
+    <svg class="fibers" viewBox="0 0 1440 140" preserveAspectRatio="none" aria-hidden="true">
+      <path class="f f1" d="M0 70 C 240 10, 420 130, 720 70 S 1200 10, 1440 70"/>
+      <path class="f f2" d="M0 80 C 260 140, 460 10, 720 80 S 1180 140, 1440 76"/>
+      <path class="f f3" d="M0 62 C 200 100, 480 30, 720 66 S 1220 100, 1440 64"/>
+      <path class="f f4" d="M0 90 C 300 50, 440 120, 720 84 S 1150 40, 1440 88"/>
+      <path class="f f5" d="M0 72 C 220 120, 520 40, 720 74 S 1240 120, 1440 70"/>
+      <path class="f f6" d="M0 66 C 280 30, 400 100, 720 70 S 1160 120, 1440 74"/>
+    </svg>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <span class="eyebrow">01 · about</span>
+          <h2>The layer where hardware, protocols &amp; software meet.</h2>
+        </header>
+        <div class="about-grid">
+          <div class="reveal">
+            <p>I'm a final-year <strong>Computer Systems &amp; Network Engineering</strong> undergraduate at the <strong>Sri Lanka Institute of Information Technology (SLIIT)</strong>. My work spans <strong>enterprise network design</strong>, <strong>performance optimisation on embedded devices</strong>, <strong>containerised infrastructure services</strong>, and <strong>cloud/IoT platforms on AWS</strong>.</p>
+            <p>I enjoy understanding how infrastructure fits together, from routing, switching, VLANs and wireless to virtual machines, Linux services, identity and security platforms. I like problems with a measurable answer: a latency budget to hit, an address plan that has to scale, a service that has to come up cleanly every time.</p>
+            <ul class="principles">
+              <li><span>01</span> Practical, hands-on troubleshooting</li>
+              <li><span>02</span> Clear documentation &amp; structured implementation</li>
+              <li><span>03</span> Security and reliability built into the design</li>
+              <li><span>04</span> Continuous learning &amp; improvement</li>
+            </ul>
+          </div>
+          <div class="terminal reveal" role="img" aria-label="Terminal window showing a whoami summary">
+            <div class="term-bar"><i></i><i></i><i></i><span>tharun@lab: ~</span></div>
+            <pre id="term" class="term-body" data-lines='[
+"$ whoami",
+"tharun-abesinghe",
+"$ cat role.txt",
+"Network & Systems Engineer",
+"$ ping -c1 mission",
+"64 bytes: build -> secure -> scale  time<1ms",
+"$ ip route show",
+"default via passion dev learning",
+"$ systemctl status curiosity",
+"● curiosity.service - active (running)",
+"$ _"
+]'></pre>
+          </div>
+        </div>
+
+        <div class="stats reveal">
+          <div><b data-count="14">0</b><span>projects &amp; labs</span></div>
+          <div><b data-count="2027" data-plain>0</b><span>BSc (Hons) expected</span></div>
+          <div><b data-count="6">0</b><span>skill domains</span></div>
+          <div><b>~500<small>ms</small></b><span>contactless latency target</span></div>
+        </div>
+      </div>
+    </section>
+
+    <svg class="fibers flip" viewBox="0 0 1440 140" preserveAspectRatio="none" aria-hidden="true">
+      <path class="f f1" d="M0 70 C 240 10, 420 130, 720 70 S 1200 10, 1440 70"/>
+      <path class="f f3" d="M0 62 C 200 100, 480 30, 720 66 S 1220 100, 1440 64"/>
+      <path class="f f5" d="M0 72 C 220 120, 520 40, 720 74 S 1240 120, 1440 70"/>
+    </svg>
+
+    <!-- SKILLS : patch panel -->
+    <section id="skills" class="section">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <span class="eyebrow">02 · skills</span>
+          <h2>The patch panel.</h2>
+          <p class="sub">Grouped by area. Every port is something I've worked with, studied or built on.</p>
+        </header>
+        <div class="panel reveal" id="panel">
+          <svg class="patch" id="patch" viewBox="0 0 1000 140" preserveAspectRatio="xMidYMid meet" aria-hidden="true"></svg>
+          <div class="skill-grid">
+            <article class="skill">
+              <header><span class="ports" aria-hidden="true"></span><h3>Networking</h3></header>
+              <ul>
+                <li>Enterprise LAN/WAN design</li>
+                <li>MPLS L3VPN</li>
+                <li>IPv4 / IPv6 addressing &amp; VLSM</li>
+                <li>Routing &amp; switching, VLAN segmentation</li>
+                <li>OSPF &amp; BGP fundamentals</li>
+                <li>Wireless &amp; RADIUS authentication</li>
+                <li>VPN &amp; remote-access networking</li>
+              </ul>
+            </article>
+            <article class="skill">
+              <header><span class="ports" aria-hidden="true"></span><h3>Systems &amp; Virtualization</h3></header>
+              <ul>
+                <li>Linux (Ubuntu) administration</li>
+                <li>Windows systems</li>
+                <li>CentOS &amp; Fedora</li>
+                <li>Docker &amp; VirtualBox</li>
+                <li>Proxmox VE</li>
+                <li>DNS, DHCP, Squid proxy</li>
+                <li>Syslog &amp; log analysis</li>
+              </ul>
+            </article>
+            <article class="skill">
+              <header><span class="ports" aria-hidden="true"></span><h3>Cloud &amp; IoT</h3></header>
+              <ul>
+                <li>AWS IoT Core &amp; MQTT</li>
+                <li>Greengrass edge compute</li>
+                <li>Device Shadows</li>
+                <li>IoT Rules Engine</li>
+                <li>Amazon S3</li>
+              </ul>
+            </article>
+            <article class="skill">
+              <header><span class="ports" aria-hidden="true"></span><h3>Embedded &amp; Performance</h3></header>
+              <ul>
+                <li>Raspberry Pi</li>
+                <li>ESP32 &amp; Arduino (ATmega328P)</li>
+                <li>Latency profiling</li>
+                <li>Optimisation on constrained hardware</li>
+              </ul>
+            </article>
+            <article class="skill">
+              <header><span class="ports" aria-hidden="true"></span><h3>Security &amp; Distributed Systems</h3></header>
+              <ul>
+                <li>Hyperledger Fabric</li>
+                <li>Permissioned blockchain</li>
+                <li>Payment authorisation</li>
+                <li>Firewall &amp; network security operations</li>
+                <li>EDR operations (SentinelOne)</li>
+              </ul>
+            </article>
+            <article class="skill">
+              <header><span class="ports" aria-hidden="true"></span><h3>Platforms &amp; Tools</h3></header>
+              <ul>
+                <li>MikroTik · Cisco</li>
+                <li>Fortinet / FortiGate</li>
+                <li>Ubiquiti UniFi</li>
+                <li>FreeRADIUS · MariaDB</li>
+                <li>Tailscale</li>
+                <li>Google Workspace Admin</li>
+                <li>MySQL · Oracle · Java</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <span class="eyebrow">03 · projects</span>
+          <h2>Selected work.</h2>
+          <p class="sub">University, research and lab projects. Anything touching real organisations is described generically.</p>
+        </header>
+
+        <div class="proj-grid">
+          <article class="proj featured reveal spot">
+            <div class="proj-top"><span class="num">01</span><span class="tag-line">Final-Year Research · IT4010 · 2026</span></div>
+            <h3>Bounded-Latency Offline Payment Authorisation</h3>
+            <p>Team research on a merchant-operated, permissioned <strong>Hyperledger Fabric</strong> payment network aimed at reducing merchant discount and interchange fees, including payments that still work when both parties are offline.</p>
+            <div class="pcs">
+              <div><h4>My component</h4><p>Profiling and optimising offline payment verification latency on constrained <strong>Raspberry Pi</strong> point-of-sale hardware to meet a <strong>~500 ms</strong> contactless transaction deadline.</p></div>
+              <div><h4>Work performed</h4>
+                <ul>
+                  <li>Built a latency-profiling methodology for cryptographic verification on low-power ARM hardware</li>
+                  <li>Identified bottlenecks across the verification path and targeted measurable improvements</li>
+                  <li>Worked in a four-member team, each owning one pipeline component</li>
+                </ul>
+              </div>
+            </div>
+            <ul class="tags"><li>Hyperledger Fabric</li><li>Raspberry Pi</li><li>Embedded Performance</li><li>Cryptography</li><li>Blockchain</li></ul>
+          </article>
+
+          <article class="proj reveal spot">
+            <div class="proj-top"><span class="num">02</span><span class="tag-line">IE4070 · Group Project · 2026</span></div>
+            <h3>Multi-Site Enterprise Network Design</h3>
+            <p>End-to-end design for an institution with a main campus and two remote sites linked over a service-provider <strong>MPLS L3VPN</strong>.</p>
+            <ul>
+              <li><strong>Logical:</strong> dual-stack IPv4/IPv6 plan, subnetted per site and function</li>
+              <li><strong>Physical:</strong> topology, cabling and rack layout for each site</li>
+              <li><strong>Equipment:</strong> routers, switches and wireless specified against capacity and redundancy needs</li>
+              <li><strong>Costing:</strong> bill of materials and stakeholder pitch</li>
+            </ul>
+            <ul class="tags"><li>MPLS L3VPN</li><li>IPv4/IPv6</li><li>VLSM</li><li>Network Costing</li></ul>
+          </article>
+
+          <article class="proj reveal spot">
+            <div class="proj-top"><span class="num">03</span><span class="tag-line">IE4030 · Virtualization &amp; Cloud · 2026</span></div>
+            <h3>Containerised Network Services Lab</h3>
+            <p>A Docker-based lab running core network services as containers, tested from a separate client machine.</p>
+            <ul>
+              <li><strong>DNS</strong> container for internal name resolution</li>
+              <li><strong>DHCP</strong> container for automatic client addressing</li>
+              <li><strong>Squid</strong> proxy container for caching and access control</li>
+              <li>Two-VM VirtualBox setup: <code>docker-host</code> serving, <code>lab-client</code> consuming</li>
+            </ul>
+            <ul class="tags"><li>Docker</li><li>DNS</li><li>DHCP</li><li>Squid</li><li>VirtualBox</li></ul>
+          </article>
+
+          <article class="proj reveal spot">
+            <div class="proj-top"><span class="num">04</span><span class="tag-line">Self-directed · 2026</span></div>
+            <h3>AWS Cloud &amp; IoT Exploration</h3>
+            <p>Hands-on exploration of AWS services for connected devices and data storage.</p>
+            <ul>
+              <li><strong>IoT Core</strong> device connectivity &amp; MQTT messaging</li>
+              <li><strong>Greengrass</strong> edge compute on local devices</li>
+              <li><strong>Device Shadows</strong> to sync state while offline</li>
+              <li><strong>Rules Engine</strong> routing data to other services</li>
+              <li><strong>S3</strong> storage classes, security controls, integrations</li>
+            </ul>
+            <ul class="tags"><li>AWS IoT Core</li><li>Greengrass</li><li>Device Shadow</li><li>S3</li><li>MQTT</li></ul>
+          </article>
+
+          <article class="proj reveal spot">
+            <div class="proj-top"><span class="num">05</span><span class="tag-line">Infrastructure practice</span></div>
+            <h3>Virtualised Servers &amp; Centralised Logging</h3>
+            <p>Administration and capacity planning for <strong>Proxmox VE</strong>, plus preparing Linux hosts to receive and organise security and network-device logs.</p>
+            <ul>
+              <li>VM deployment, resource allocation and utilisation monitoring</li>
+              <li>Storage capacity review and expansion planning</li>
+              <li>Syslog configuration, log directory and disk-space management</li>
+            </ul>
+            <ul class="tags"><li>Proxmox VE</li><li>Ubuntu Server</li><li>Syslog</li><li>NFS</li></ul>
+          </article>
+
+          <article class="proj reveal spot">
+            <div class="proj-top"><span class="num">06</span><span class="tag-line">Infrastructure practice</span></div>
+            <h3>RADIUS Wi-Fi Auth &amp; Remote Access</h3>
+            <p>Centralised wireless authentication and secure connectivity for remote users.</p>
+            <ul>
+              <li>Ubuntu + <strong>FreeRADIUS</strong> with <strong>MariaDB</strong>; authentication testing and log review</li>
+              <li><strong>Tailscale</strong> overlay: subnet routing, Linux IP forwarding, DNS troubleshooting</li>
+              <li>Reaching a device vs. reaching the subnet behind it</li>
+            </ul>
+            <ul class="tags"><li>FreeRADIUS</li><li>MariaDB</li><li>Tailscale</li><li>Routing</li></ul>
+          </article>
+        </div>
+
+        <h3 class="more-h reveal">More projects <span>// university &amp; personal builds</span></h3>
+        <div class="mini-grid">
+          <article class="mini reveal">
+            <div class="mini-top"><span>Personal build</span><time>Jul 2025</time></div>
+            <h4>Smart Desk Clock</h4>
+            <p>A low-power, interactive OLED robotic face on an ESP32-C3 Super Mini. Animated eyes blink, track and enter sleep mode based on activity; a 128×64 SSD1306 shows expressions, a real-time clock and weather. Capacitive-touch switches screens, and a web portal sets Wi-Fi and location without reprogramming.</p>
+            <ul class="tags"><li>ESP32</li><li>NTP</li><li>SSD1306</li><li>Embedded</li></ul>
+          </article>
+          <article class="mini reveal">
+            <div class="mini-top"><span>SLIIT · Computer Systems Administration</span><time>Apr – May 2025</time></div>
+            <h4>Caching Proxy with SSL Interception</h4>
+            <p>Designed, built and tested a Squid caching proxy on CentOS 9 with DNS integration. Access controls and cache policies, verified web caching, custom DNS records, and HTTPS inspection using self-signed certificates, validated from a Fedora client.</p>
+            <ul class="tags"><li>Squid</li><li>CentOS</li><li>DNS</li><li>SSL</li></ul>
+          </article>
+          <article class="mini reveal">
+            <div class="mini-top"><span>SLIIT · Team project</span><time>Apr – May 2025</time></div>
+            <h4>Handheld Snake Game</h4>
+            <p>A standalone Snake game built on an ATmega328P with a 1.5-inch 128×128 SH1107 OLED, analog joystick, live score, buzzer feedback, and a rechargeable battery with boost converter and Type-C charging, assembled on a compact custom dot board.</p>
+            <ul class="tags"><li>Arduino</li><li>ATmega328P</li><li>Embedded</li></ul>
+          </article>
+          <article class="mini reveal">
+            <div class="mini-top"><span>SLIIT · Operating Systems</span><time>Apr 2025</time></div>
+            <h4>ML-Based Memory Lifetime Prediction</h4>
+            <p>Study of an ACM paper on LLAMA, a learned lifetime-aware memory allocator using LSTM models, compared with traditional C++ allocation such as TCMalloc. Reviewed results across workloads like Redis and TensorFlow inference and wider uses in cloud and scheduling.</p>
+            <ul class="tags"><li>Operating Systems</li><li>Machine Learning</li><li>C++</li></ul>
+          </article>
+          <article class="mini reveal">
+            <div class="mini-top"><span>SLIIT · Team project</span><time>Sep – Oct 2024</time></div>
+            <h4>Pharmacy Inventory Management System</h4>
+            <p>A desktop application for inventory tracking, sales management and stock monitoring that reduces manual record-keeping errors. Java GUI, MySQL database and JDBC connectivity.</p>
+            <ul class="tags"><li>Java</li><li>MySQL</li><li>JDBC</li></ul>
+          </article>
+          <article class="mini reveal">
+            <div class="mini-top"><span>SLIIT · Database Systems Administration</span><time>Sep – Oct 2024</time></div>
+            <h4>Oracle Database Administration</h4>
+            <p>Installed and configured Oracle 12c with SQL Developer, and worked hands-on with PDBs, roles, profiles, tablespaces, users and database connections.</p>
+            <ul class="tags"><li>Oracle</li><li>SQL</li></ul>
+          </article>
+          <article class="mini reveal">
+            <div class="mini-top"><span>SLIIT · Network Fundamentals</span><time>Apr – May 2024</time></div>
+            <h4>Network Design for LMN Financial Group</h4>
+            <p>A secure, scalable network design: IP subnetting, logical and physical topology, device selection (Cisco, Ruckus), VPN, and DNS, email, web and file servers, with infrastructure budgeting.</p>
+            <ul class="tags"><li>Network Design</li><li>Subnetting</li><li>VPN</li><li>Cisco</li></ul>
+          </article>
+          <article class="mini reveal">
+            <div class="mini-top"><span>SLIIT · IT1090</span><time>May 2024</time></div>
+            <h4>Online Medical Portal Database</h4>
+            <p>Database design for a healthcare platform connecting patients and doctors: ER diagrams, a normalized relational schema in MySQL, and SQL for users, appointments, prescriptions, payments and feedback.</p>
+            <ul class="tags"><li>MySQL</li><li>ER Modelling</li><li>SQL</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- topology -->
+    <section class="section topo-sec" aria-labelledby="topo-h">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <span class="eyebrow">04 · topology</span>
+          <h2 id="topo-h">A generic multi-site design.</h2>
+          <p class="sub">Illustrative only: a main campus and two remote sites over an MPLS L3VPN. No real infrastructure is shown.</p>
+        </header>
+        <div class="topo reveal">
+          <svg viewBox="0 0 900 380" role="img" aria-label="Diagram: main campus connected to two remote sites through an MPLS provider cloud">
+            <defs>
+              <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            </defs>
+            <g class="links">
+              <path id="l1" d="M450 190 L170 100"/><path id="l2" d="M450 190 L170 290"/>
+              <path id="l3" d="M450 190 L730 100"/><path id="l4" d="M450 190 L730 290"/>
+            </g>
+            <g class="pulses">
+              <circle r="4"><animateMotion dur="3s" repeatCount="indefinite"><mpath href="#l1"/></animateMotion></circle>
+              <circle r="4"><animateMotion dur="3.6s" repeatCount="indefinite" begin="-1s"><mpath href="#l2"/></animateMotion></circle>
+              <circle r="4"><animateMotion dur="3.3s" repeatCount="indefinite" begin="-2s"><mpath href="#l3"/></animateMotion></circle>
+              <circle r="4"><animateMotion dur="2.8s" repeatCount="indefinite" begin="-.5s"><mpath href="#l4"/></animateMotion></circle>
+            </g>
+            <g class="cloud" filter="url(#glow)">
+              <ellipse cx="450" cy="190" rx="95" ry="52"/>
+              <text x="450" y="186" text-anchor="middle">MPLS L3VPN</text>
+              <text x="450" y="204" text-anchor="middle" class="s">service provider</text>
+            </g>
+            <g class="node">
+              <rect x="40" y="55" width="130" height="90" rx="12"/><text x="105" y="94" text-anchor="middle">Main Campus</text><text x="105" y="114" text-anchor="middle" class="s">core · dist · access</text>
+              <rect x="40" y="245" width="130" height="90" rx="12"/><text x="105" y="284" text-anchor="middle">Remote Site A</text><text x="105" y="304" text-anchor="middle" class="s">edge · access</text>
+              <rect x="730" y="55" width="130" height="90" rx="12"/><text x="795" y="94" text-anchor="middle">Remote Site B</text><text x="795" y="114" text-anchor="middle" class="s">edge · access</text>
+              <rect x="730" y="245" width="130" height="90" rx="12"/><text x="795" y="284" text-anchor="middle">Services</text><text x="795" y="304" text-anchor="middle" class="s">DNS · DHCP · logs</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <svg class="fibers" viewBox="0 0 1440 140" preserveAspectRatio="none" aria-hidden="true">
+      <path class="f f2" d="M0 80 C 260 140, 460 10, 720 80 S 1180 140, 1440 76"/>
+      <path class="f f4" d="M0 90 C 300 50, 440 120, 720 84 S 1150 40, 1440 88"/>
+      <path class="f f6" d="M0 66 C 280 30, 400 100, 720 70 S 1160 120, 1440 74"/>
+    </svg>
+
+    <!-- JOURNEY -->
+    <section id="journey" class="section">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <span class="eyebrow">05 · experience &amp; education</span>
+          <h2>The route so far.</h2>
+        </header>
+        <ol class="timeline">
+          <li class="reveal">
+            <span class="node-dot" aria-hidden="true"></span>
+            <time>Sep 2026 – Present</time>
+            <h3>IT and Network Engineer</h3>
+            <p class="org">Codimite · Full-time · On-site, Western Province, Sri Lanka</p>
+            <ul class="bullets">
+              <li>Business IT support and infrastructure operations</li>
+              <li>Network and connectivity troubleshooting</li>
+              <li>Server and virtualization administration</li>
+              <li>Security platform and logging operations</li>
+            </ul>
+          </li>
+          <li class="reveal">
+            <span class="node-dot" aria-hidden="true"></span>
+            <time>Feb 2026 – Aug 2026 · 7 mos</time>
+            <h3>Associate IT Support</h3>
+            <p class="org">Codimite · Full-time · On-site, Western Province, Sri Lanka</p>
+          </li>
+          <li class="reveal">
+            <span class="node-dot dim" aria-hidden="true"></span>
+            <time>Sep 2025 – Jan 2026 · 5 mos</time>
+            <h3>Intern, IT Support</h3>
+            <p class="org">Codimite · On-site, Western Province, Sri Lanka</p>
+          </li>
+          <li class="reveal">
+            <span class="node-dot dim" aria-hidden="true"></span>
+            <time>Expected 2027</time>
+            <h3>BSc (Hons) in Information Technology, Computer Systems &amp; Network Engineering</h3>
+            <p class="org">Sri Lanka Institute of Information Technology (SLIIT), Malabe</p>
+            <ul class="tags"><li>IT4010 Research Project</li><li>IE4070 Enterprise Networks</li><li>IE4030 Virtualization &amp; Cloud</li></ul>
+          </li>
+        </ol>
+
+        <div class="next reveal">
+          <h3>What I'm working on next</h3>
+          <div class="next-grid">
+            <div><span>📡</span> An <strong>IoT research product</strong> with real commercial potential</div>
+            <div><span>☁️</span> Going deeper on <strong>AWS IoT</strong> and edge computing</div>
+            <div><span>🛠️</span> Tools that make <strong>network design and planning</strong> faster</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certs" class="section">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <span class="eyebrow">06 · certifications</span>
+          <h2>Licenses &amp; certifications.</h2>
+          <p class="sub">13 completed credentials from Cisco Networking Academy and AWS, newest first.</p>
+        </header>
+        <div class="cert-grid reveal">
+          <article class="cert cisco">
+            <div class="cert-top"><span class="issuer">Cisco Networking Academy</span><time>Jun 2026</time></div>
+            <h3>Cybersecurity Defense Analyst</h3>
+            <p>Cyber Defense · Cyber Operations</p>
+          </article>
+          <article class="cert cisco">
+            <div class="cert-top"><span class="issuer">Cisco Networking Academy</span><time>Jul 2026</time></div>
+            <h3>Operating Systems Support</h3>
+            <p>OS Concepts · Troubleshooting</p>
+          </article>
+          <article class="cert cisco">
+            <div class="cert-top"><span class="issuer">Cisco Networking Academy</span><time>Jul 2026</time></div>
+            <h3>Security and Connectivity Support</h3>
+            <p>Networking · Network Security</p>
+          </article>
+          <article class="cert cisco">
+            <div class="cert-top"><span class="issuer">Cisco Networking Academy</span><time>Feb 2026</time></div>
+            <h3>CCNA: Switching, Routing, and Wireless Essentials</h3>
+            <p>LAN Switching · Routing Protocols</p>
+          </article>
+          <article class="cert aws">
+            <div class="cert-top"><span class="issuer">Amazon Web Services (AWS)</span><time>Aug 2025</time></div>
+            <h3>Cloud Computing Essentials</h3>
+            <p>Cloud Services · Cloud Computing</p>
+          </article>
+          <article class="cert aws">
+            <div class="cert-top"><span class="issuer">Amazon Web Services (AWS)</span><time>Aug 2025</time></div>
+            <h3>Getting Started with DevOps on AWS</h3>
+            <p>DevOps · CI/CD</p>
+          </article>
+          <article class="cert cisco">
+            <div class="cert-top"><span class="issuer">Cisco Networking Academy</span><time>Jul 2025</time></div>
+            <h3>Network Technician Career Path</h3>
+            <p>Networking · Cloud Services</p>
+          </article>
+          <article class="cert cisco">
+            <div class="cert-top"><span class="issuer">Cisco Networking Academy</span><time>Jul 2025</time></div>
+            <h3>Network Support and Security</h3>
+            <p>Help Desk Support · Network Troubleshooting</p>
+          </article>
+          <article class="cert cisco">
+            <div class="cert-top"><span class="issuer">Cisco Networking Academy</span><time>Jul 2025</time></div>
+            <h3>Network Addressing and Basic Troubleshooting</h3>
+            <p>Network Troubleshooting · Cisco Routers</p>
+          </article>
+          <article class="cert cisco">
+            <div class="cert-top"><span class="issuer">Cisco Networking Academy</span><time>Apr 2025</time></div>
+            <h3>Networking Devices and Initial Configuration</h3>
+            <p>Network Design · ICMP</p>
+          </article>
+          <article class="cert cisco">
+            <div class="cert-top"><span class="issuer">Cisco Networking Academy</span><time>Mar 2025</time></div>
+            <h3>Introduction to IoT and Digital Transformation</h3>
+            <p>Internet of Things · Wireless Technologies</p>
+          </article>
+          <article class="cert cisco">
+            <div class="cert-top"><span class="issuer">Cisco Networking Academy</span><time>Mar 2025</time></div>
+            <h3>Computer Hardware Basics</h3>
+            <p>Computer Hardware</p>
+          </article>
+          <article class="cert cisco">
+            <div class="cert-top"><span class="issuer">Cisco Networking Academy</span><time>Mar 2025</time></div>
+            <h3>Network Basics</h3>
+            <p>Networking · Network Security</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="wrap">
+        <header class="sec-head center reveal">
+          <span class="eyebrow">07 · contact</span>
+          <h2>Let's get connected.</h2>
+          <p class="sub">I'm open to internships, graduate roles and collaborations in networking, cloud infrastructure and IoT.</p>
+        </header>
+
+        <div class="plug reveal" aria-hidden="true">
+          <svg viewBox="0 0 900 120" preserveAspectRatio="xMidYMid meet">
+            <path class="cable" d="M0 60 H 300"/>
+            <g class="rj45">
+              <rect x="300" y="38" width="38" height="44" rx="5" class="boot"/>
+              <rect x="338" y="32" width="70" height="56" rx="6" class="body"/>
+              <rect x="408" y="40" width="22" height="40" rx="3" class="tip"/>
+              <g class="pins"><path d="M414 46v28M419 46v28M424 46v28"/></g>
+              <rect x="352" y="26" width="30" height="8" rx="2" class="latch"/>
+            </g>
+            <rect x="468" y="22" width="130" height="76" rx="8" class="jack"/>
+            <rect x="480" y="36" width="70" height="48" rx="4" class="jack-in"/>
+            <circle cx="574" cy="40" r="5" class="led-o"/><circle cx="574" cy="60" r="5" class="led-g"/>
+            <path class="cable r" d="M598 60 H 900"/>
+          </svg>
+        </div>
+
+        <div class="contact-grid reveal">
+          <a class="c-card" href="mailto:your.email@example.com">
+            <span class="ico">✉️</span><div><h3>Email</h3><p>your.email@example.com</p></div>
+          </a>
+          <a class="c-card" href="https://www.linkedin.com/in/tharun-abesinghe-947715343/" target="_blank" rel="noopener">
+            <span class="ico">💼</span><div><h3>LinkedIn</h3><p>linkedin.com/in/tharun-abesinghe</p></div>
+          </a>
+          <a class="c-card" href="https://github.com/your-handle" target="_blank" rel="noopener">
+            <span class="ico">🐙</span><div><h3>GitHub</h3><p>github.com/your-handle</p></div>
+          </a>
+          <a class="c-card" href="#" aria-disabled="true">
+            <span class="ico">📄</span><div><h3>CV / Résumé</h3><p>Add your_cv.pdf</p></div>
+          </a>
+        </div>
+        <p class="loc reveal">📍 Sri Lanka</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <span>© 2026 Tharun Abesinghe</span>
+      <span class="mono"><span class="led" aria-hidden="true"></span> all systems operational</span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="statusbar" aria-hidden="true">
+    <span class="sb-a">[tharun] 0:web*</span>
+    <span class="sb-b">~/<b id="sb-sec">home</b></span>
+    <span class="sb-fill"></span>
+    <span class="sb-c">eth0 <i class="led"></i> 1Gbps</span>
+    <span class="sb-c" id="sb-up">up 00:00</span>
+    <span class="sb-a" id="sb-clock">00:00:00</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
